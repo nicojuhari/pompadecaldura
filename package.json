@@ -7,6 +7,9 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.0.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.1",
+    "firebase-functions-test": "^0.3.3",
     "nuxt3": "latest"
   }
 }

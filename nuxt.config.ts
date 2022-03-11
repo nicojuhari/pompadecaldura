@@ -4,8 +4,8 @@ import { defineNuxtConfig } from 'nuxt3'
 export default defineNuxtConfig({
     buildModules: ['@nuxtjs/tailwindcss'],
     nitro: {
-    preset: 'browser',
-  }
+      preset: 'lambda'
+    }
     //ssr: false,
     // routes: {
     // '/': { static: true }, // Once per build (via builder)

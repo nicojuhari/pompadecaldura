@@ -1,12 +1,17 @@
 <template>
-    <div class="min-h-screen w-full flex items-center justify-center">
-        <div class="text-center">
-            <img class="w-36 m-auto" src="/aquaterm-logo.png" />
-            <h2 class="mt-4 text-3xl ">AquaTerm Grup SRL</h2>
-            <h3 class="mt-4 text-lg text-blue-800">062053053</h3>
+    <section class="flex items-center">
+        <div class="max-w-screen-xl w-full m-auto pt-60 px-6 grid grid-cols-2">
+            <div class="font-bold leading-tight max-w-xl flex justify-center flex-col">
+                <h1 class="text-5xl">Pompa de caldură <span class="text-orange-600">Q-Term</span></h1>
+                <h2 class="text-3xl">Încălzire, apă caldă și răcire</h2>
+                <div class="text-orange-600 text-3xl">De cateva ori mai ieftin </div>
+            </div>
+            <div class="flex justify-end">
+                <img class="max-w-lg w-full" src="/images/q-term.png"/>
+            </div>
         </div>
-
-    </div>
+        
+    </section>
 </template>
 
 <script setup>

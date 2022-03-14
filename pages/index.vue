@@ -1,6 +1,5 @@
 <template>
     <HeroSection/>
-    <ImageSection />
     <FeaturesSection/>
 </template>
 

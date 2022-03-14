@@ -4,32 +4,16 @@
 <template>
     <section class="py-24 px-6">
         <div class="max-w-screen-xl w-full m-auto">
-            <div class="font-bold text-center text-color2 relative text-5xl leading-tight">
-                <div class="flex flex-wrap justify-center text-lg opacity-50">Cu, <h1 class="mx-1">pompa de caldură <em class="font-extrabold">Q-Term</em> </h1> ai</div>
+            <div class="font-bold text-center text-color2 text-6xl leading-tight">
+                <div class="flex flex-wrap justify-center text-xl opacity-70">Cu, <h1 class="mx-1">pompa de caldură <em class="font-extrabold">Q-Term</em> </h1> ai</div>
                 <div>Încălzire, Apă caldă și Răcirea locuinței</div>
-                <div class="text-brand relative">
-                    De cîteva ori mai ieftin
-                     <div class="title-badge absolute text-xl  bg-color4 text-white px-4 py-2 rounded-md right-16 bottom-0">fără GAZ, carbune, sau lemne 🔥</div>
-                </div>
+                <div class="text-brand">De cîteva ori mai ieftin.</div>
+            </div>
+            <div class="mt-8">
+                <img  class="m-auto" src="/images/q-term-hero-premium.png" alt="pompa de caldură Q-Term">
+                <div class="text-2xl text-color2 font-bold text-center opacity-70"><em>fără GAZ, cărbune, sau lemne 🔥</em></div>
             </div>
         </div>
     </section>
 </template>
-<style scoped>
-.title-badge {
-    animation: scaleUp 4.6s infinite;
-}
-</style>
-<style>
-@keyframes scaleUp {
-        0% {
-            transform: scale(1) rotate(-25deg);
-        }
-        50% {
-            transform: scale(1.05) rotate(-25deg);
-        }
-        100% {
-            transform: scale(1) rotate(-25deg);
-        }
-    }
-</style>
+

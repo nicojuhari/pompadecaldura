@@ -1,5 +1,5 @@
 <template>
-    <section class="py-8 md:py-16 px-6">
+    <section class="py-12 md:py-24 px-4 md:px-6">
         <div class="max-w-screen-xl w-full m-auto text-lg grid md:grid-cols-3 gap-4 items-center">
             <div class="md:col-span-2">
                 <div class="text-brand font-bold text-3xl mb-4">Despre Q-TERM</div>

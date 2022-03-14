@@ -2,16 +2,15 @@
 
 </script>
 <template>
-    <section class="py-12 md:py-24 px-6">
+    <section class="py-12 md:py-24 px-4 md:px-6">
         <div class="max-w-screen-xl w-full m-auto">
-            <div class="font-bold text-center text-3xl md:text-6xl leading-tight">
-                <div class="flex flex-wrap justify-center text-lg md:text-xl opacity-70 mb-2">Cu, <h1 class="mx-1">pompa de caldură <em class="font-extrabold">Q-Term</em> </h1> ai</div>
-                <div>Încălzire, Apă caldă și Răcirea locuinței</div>
-                <div class="text-brand mt-2">De cîteva ori mai ieftin.</div>
+            <div class="font-bold text-center text-2xl md:text-7xl leading-tight">
+                <h1>Pompa de caldură <em class="font-extrabold uppercase">Q-Term</em></h1>
+                <div class="text-brand md:text-4xl mt-2 md:mt-4"><em>Încălzire, Apă caldă și Răcirea locuinței</em></div>
             </div>
-            <div class="mt-16">
-                <img  class="m-auto" src="/images/q-term-hero-premium.png" alt="pompa de caldură Q-Term">
-                <div class="text-2xl font-bold text-center opacity-70"><em>fără GAZ, cărbune, sau lemne 🔥</em></div>
+            <div class="mt-6">
+                <img  class="m-auto w-80 md:w-96" src="/images/q-term-hero-premium.png" alt="pompa de caldură Q-Term">
+                <div class="text-2xl md:text-4xl font-bold text-center">De cîteva ori mai ieftin,<br> decît cu GAZ, cărbune, sau lemne 🔥</div>
             </div>
         </div>
     </section>

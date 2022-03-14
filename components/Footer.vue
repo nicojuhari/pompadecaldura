@@ -2,8 +2,8 @@
 
 </script>
 <template>
-  <footer>
-    <div class="flex justify-content p-4 flex-col text-center border-t">
+  <footer class="py-6 md:py-12 px-4 md:px-6 border-t">
+    <div class="flex justify-content flex-col text-center">
       <div class=" text-brand tracking-wider font-bold text-lg flex justify-center">
           <a href="tel:+37362053053" class="p-2 flex items-center hover:underline">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

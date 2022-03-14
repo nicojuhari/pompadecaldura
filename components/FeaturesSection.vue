@@ -2,7 +2,7 @@
 
 </script>
 <template>
-    <section class="py-16 md:py-24 px-6">
+    <section class="py-12 md:py-24 px-4 md:px-6">
         <div class="max-w-screen-xl w-full m-auto">
             <div class="grid md:grid-cols-3 text-center gap-4">
                 <div class="flex flex-col items-center justify-center">

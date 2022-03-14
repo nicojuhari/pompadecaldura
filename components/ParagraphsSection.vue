@@ -27,7 +27,7 @@
 
 </script>
 <template>
-  <section class="py-16 md:py32 px-6">
+  <section class="py-12 md:py-24 px-4 md:px-6">
       <div class="max-w-screen-xl w-full m-auto text-lg">
           <div v-for="item in paragraphs" class="mb-6">
                 <div class="flex items-center mb-2">

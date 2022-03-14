@@ -12,6 +12,6 @@
 
 <style>
     section:nth-child(odd) {
-        background-color: #f5f5f5;
+        background-color: rgba(245, 245, 245, 0.625);
     }
 </style>

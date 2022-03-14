@@ -3,7 +3,7 @@
 
 </script>
 <template>
-    <section class="py-8 md:py-16 px-6">
+    <section class="py-12 md:py-24 px-4 md:px-6">
         <div class="max-w-screen-xl w-full m-auto grid md:grid-cols-3 items-center">
             <div>
                 <img src="/images/warmlink-logo.png" alt="Warmlink" class="w-60  m-auto">

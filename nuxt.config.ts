@@ -5,13 +5,11 @@ export default defineNuxtConfig({
     buildModules: ['@nuxtjs/tailwindcss'],
     nitro: {
       preset: 'browser',
-    }
-    // ssr: false,
-    // routes: {
-    //   '/': { static: true }, // Once per build (via builder)
-    //   // '/contacts': { ssr: false }, // Once on-demand per build (via lambda)
-    //   // // '/stats/*': { swr: '10 min' }, // Once on-demand each 10 minutes (via lambda)
-    //   // // '/admin/*': { ssr: false }, // Client-Side rendered
-    //   // // '/react/*': { redirect: '/vue' }, // Redirect Rules
-    // }
+    },
+    meta: {
+      link: [
+        // <link rel="stylesheet" href="https://myawesome-lib.css">
+        // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap' }
+      ],
+    },
 })

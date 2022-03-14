@@ -4,7 +4,7 @@
 <template>
     <header>
         <Title>Pompa de caldură Q-Term - Încălzire, Apă caldă, Răcirea locuinței</Title>
-        <div class="grid grid-cols-2 p-4 max-w-screen-xl m-auto items-center">
+        <div class="grid grid-cols-2 p-2 md:p-4 max-w-screen-xl m-auto items-center">
             <div class="text-2xl uppercase font-extrabold ">Q-term</div>
             <div class="flex justify-end">
                 <div class=" text-brand tracking-wider font-bold text-lg">

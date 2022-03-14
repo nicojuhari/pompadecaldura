@@ -1,0 +1,23 @@
+<template>
+    <section class="py-8 md:py-16 px-6">
+        <div class="max-w-screen-xl w-full m-auto text-lg grid md:grid-cols-3 gap-4 items-center">
+            <div class="md:col-span-2">
+                <div class="text-brand font-bold text-3xl mb-4">Despre Q-TERM</div>
+                &nbsp;&nbsp;Q-TERM are o istorie lungă în ceea ce privește designul și dezvoltarea produselor de încălzire durabilă care excelează în mediul 
+                rece și noua pompa Q-TERM Monobloc cu gaz R32 nu face excepție. 
+                <br><br>Combinând cele mai recente tehnologii pentru a vă oferi o eficiență mai mare la încălzirea, răcirea locuinței și producerea de apă caldă menajeră,acest produs este proiectat cu stil în minte și finisat cu o carcasa din material ABS negru mat premium, aceasta pompa de căldură este rezistentă la coroziune și razele ultraviolet  și construită pentru a infrunta cele mai dure conditii, asigurand o lunga durată de viață. 
+                <br><br>Combinând creativ refrigerantul ecologic R32, invertorul complet cu tehnologia EVI și un aspect modern si elegant.
+            </div>
+            <div class="flex justify-center items-center -order-1 md:order-2 flex-shrink-0">
+                <img src="/images/q-term.png" alt="pompa de caldură Q-term"/>
+            </div>
+        </div>
+    </section>
+</template>
+
+<script>
+</script>
+
+<style>
+
+</style>

@@ -2,16 +2,18 @@
     <HeroSection/>
     <FeaturesSection/>
     <ImagesSection/>
+    <CallToActionComp />
+    <WarmlinkSection/>
     <ParagraphsSection/>
     <ContentSection/>
-    <WarmlinkSection/>
 </template>
 
 <script setup>
+import CallToActionComp1 from '~~/components/CallToActionComp.vue';
 </script>
 
 <style>
     section:nth-child(odd) {
-        background-color: rgba(245, 245, 245, 0.625);
+        background: rgba(255, 152, 0, .045);
     }
 </style>

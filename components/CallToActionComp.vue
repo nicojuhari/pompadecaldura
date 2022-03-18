@@ -1,8 +1,8 @@
 
 <template> 
     <section class="py-12 md:py-24 px-4 md:px-6 bg-brand text-white cta-section" v-once>
-        <div class="max-w-screen-xl w-full m-auto flex items-center flex-col justify-center text-center">
-            <div class="text-2xl md:text-4xl">Sună acum și primește o consultanță gratuită!</div>
+        <div class="max-w-screen-lg w-full m-auto flex items-center flex-col justify-center text-center">
+            <div class="text-2xl md:text-4xl md:leading-normal ">Sună acum și primește o consultație gratuită,<br>în 5 minute!</div>
             <div class="tracking-wider font-bold text-lg border-2 rounded-full px-2 mt-12">
                 <a href="tel:+37362053053" class="p-2 flex items-center hover:underline">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

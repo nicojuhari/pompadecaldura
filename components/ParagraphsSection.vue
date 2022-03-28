@@ -50,44 +50,12 @@
 
 </script>
 <template>
-  <section class="py-12 md:py-24 px-4 md:px-6">
-      <div class="text-center mb-8 md:mb-12 text-2xl md:text-4xl uppercase">Despre Q-TERM</div>
-      <div class="max-w-screen-xl w-full m-auto text-lg">
-          <div v-for="item in paragraphs" class="accordion border-b" :class="{'is-closed': item.isOpen == false}">
-                <div class="flex items-center cursor-pointer py-6" @click="(e)=>toggleAccordion(e, item)">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 mr-2 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                    </svg>
-                    <h2 class="text-lg md:text-2xl">{{item.title}}</h2>
-                </div>
-                <div class="text-gray-700 accordion-content">
-                    <div class="p-6 leading-relaxed" v-html="item.content"></div>
-                </div>
-          </div>
-      </div>
-  </section>
+    <section class="py-12 md:py-24 px-4 md:px-6">
+        <div class="text-center mb-8 md:mb-12 text-2xl md:text-4xl uppercase">Despre Q-TERM</div>
+        <div class="max-w-screen-xl w-full m-auto text-lg">
+            <AccordionComp v-for="item in paragraphs" :title="item.title" :content="item.content"></AccordionComp>
+        </div>
+    </section>
 </template>
 
 
-<style scoped>
-.accordion-content {
-    max-height: 200px;
-    overflow: clip;
-    transition: all 0.5s ease-out;
-}
-.is-closed .accordion-content {
-    max-height: 0;
-}
-.accordion svg {
-    transition: all 0.5s ease-out;
-}
-
-.accordion.is-closed svg {
-    transform: rotate(-180deg);
-}
-
-.accordion:not(.is-closed):last-child() {
-    border-bottom: 0px;
-}
-
-</style>

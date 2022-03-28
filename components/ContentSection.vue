@@ -8,7 +8,7 @@
                 <br><br>Combinând creativ refrigerantul ecologic R32, invertorul complet cu tehnologia EVI și un aspect modern si elegant.
             </div>
             <div class="flex justify-center items-center -order-1 md:order-2 flex-shrink-0 mb-6 md:mb-0">
-                <img class="w-60 md:w-80" src="/images/q-term.png" alt="pompa de caldură Q-term"/>
+                <img class="w-60 md:w-96" src="/images/q-term.png" alt="pompa de caldură Q-term"/>
             </div>
         </div>
     </section>

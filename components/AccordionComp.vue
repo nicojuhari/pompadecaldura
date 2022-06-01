@@ -31,11 +31,15 @@
     </div>
 </template>
 
-<style scoped>
+<style>
 .accordion-content {
     overflow: clip;
     transition: all 0.6s ease-out;
     max-height: 0;
+}
+
+.accordion-content p {
+    margin-bottom: 1rem;
 }
 .accordion svg {
     transition: all 0.6s ease-out;

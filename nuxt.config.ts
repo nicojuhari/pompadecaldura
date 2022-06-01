@@ -12,4 +12,5 @@ export default defineNuxtConfig({
         // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap' }
       ],
     },
+    devServerHandlers: [],
 })

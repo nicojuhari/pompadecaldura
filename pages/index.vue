@@ -1,15 +1,16 @@
 <template>
-    <HeroSection/>
-    <FeaturesSection/>
-    <ImagesSection/>
+    <HeroSection />
+    <FeaturesSection />
+    <ImagesSection />
     <CallToActionComp />
-    <WarmlinkSection/>
-    <ParagraphsSection/>
-    <ContentSection/>
+    <WarmlinkSection />
+    <ParagraphsSection />
+    <ContentSection />
+    <NuxtLink to="contacts" clas="p-2 text-center mb-8">Contacte ...</NuxtLink>
 </template>
 
 <script setup>
-import CallToActionComp1 from '~~/components/CallToActionComp.vue';
+
 </script>
 
 <style>

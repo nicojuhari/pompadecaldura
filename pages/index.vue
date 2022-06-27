@@ -1,12 +1,14 @@
 <template>
-    <HeroSection />
-    <FeaturesSection />
-    <ImagesSection />
-    <CallToActionComp />
-    <WarmlinkSection />
-    <ParagraphsSection />
-    <ContentSection />
-    <NuxtLink to="/contacts" clas="p-2 text-center mb-8">Contacte ...</NuxtLink>
+    <div>
+        <HeroSection />
+        <FeaturesSection />
+        <ImagesSection />
+        <CallToActionComp />
+        <WarmlinkSection />
+        <ParagraphsSection />
+        <ContentSection />
+        <NuxtLink to="/contacts" clas="p-2 text-center mb-8">Contacte ...</NuxtLink>
+    </div>
 </template>
 
 <script setup>

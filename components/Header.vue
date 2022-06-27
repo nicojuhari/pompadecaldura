@@ -5,7 +5,7 @@
     <header>
         <Title>Pompa de caldură Q-Term - Încălzire, Apă caldă, Răcirea locuinței</Title>
         <div class="grid grid-cols-2 px-4 py-2 md:p-4 max-w-screen-xl m-auto items-center">
-            <div class="text-2xl uppercase font-extrabold ">Q-term</div>
+            <NuxtLink to="/" class="text-2xl uppercase font-extrabold ">Q-term</NuxtLink>
             <div class="flex justify-end">
                 <div class=" text-brand tracking-wider font-bold text-lg">
                     <a href="tel:+37362053053" class="p-2 pr-0 flex items-center hover:underline">

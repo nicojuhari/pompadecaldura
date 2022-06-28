@@ -5,8 +5,8 @@
     <Footer />
   </div>
 </template>
-<style>
-/* body {
-     font-family: 'Open Sans', sans-serif;
- } */
+<style postcss>
+body {
+    @apply text-color2;
+ }
 </style>

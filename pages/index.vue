@@ -1,11 +1,11 @@
 <template>
-    <HeroSection/>
-    <FeaturesSection/>
+    <div class="home-page">
+        <HeroSection />
+        <FeaturesSection />
+        <CallToActionComp />
+        <!-- <ImagesSection /> -->
+        <WarmlinkSection />
+        <ParagraphsSection />
+        <ContentSection />
+    </div>
 </template>
-
-<script setup>
-</script>
-
-<style>
-
-</style>

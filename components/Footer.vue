@@ -2,19 +2,26 @@
 
 </script>
 <template>
-  <footer>
-    <div class="flex justify-content p-4 flex-col text-center border-t">
-      <div class=" text-brand tracking-wider font-bold text-lg flex justify-center">
-          <a href="tel:+37362053053" class="p-2 flex items-center hover:underline">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              <span >062053053</span>
-          </a>
+  <footer class="px-4 bg-color2 text-white">
+    <div class="container">
+      <div class="grid md:grid-cols-3 gap-4 gap-y-10 py-8">
+        <div>
+          <div class="text-2xl uppercase font-extrabold text-white">Q-term</div>
+          <div class="text-sm opacity-60">Comfort inteligent</div>
+        </div>
+        <div>
+          <div class="font-2xl uppercase opacity-60 mb-2">Adresa</div>
+          <div>m. Chișinău, str. Uzinelor, nr. 90</div>
+        </div>
+        <div>
+          <div class="font-2xl uppercase opacity-60 mb-2">Contacte</div>
+          <div class="mb-2">mobil: <a href="tel:+37362053053">062053053</a></div>
+          <div>email: <a href="mailto:contact@pompadecaldura.md">contact@pompadecaldura.md</a></div>
+        </div>
       </div>
-      <div>AquaTerm Grup SRL </div>
-      <div>m.Chișinău, str.Uzinelor, nr.90</div>
-      
+      <div class="py-4 border-t border-white border-opacity-20 text-center">
+        &copy; {{ new Date().getFullYear() }} AquaTerm Grup SRL
+      </div>
     </div>
   </footer>
 </template>

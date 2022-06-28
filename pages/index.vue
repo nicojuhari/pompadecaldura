@@ -3,7 +3,6 @@
         <HeroSection />
         <FeaturesSection />
         <CallToActionComp />
-        <!-- <ImagesSection /> -->
         <WarmlinkSection />
         <ParagraphsSection />
         <ContentSection />

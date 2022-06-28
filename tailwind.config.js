@@ -6,7 +6,11 @@ module.exports = {
         `composables/**/*.{js,ts}`,
         `plugins/**/*.{js,ts}`,
         `App.{js,ts,vue}`,
+<<<<<<< HEAD
         `app.{js,ts,vue}`,
+=======
+        `app.{js,ts,vue}`
+>>>>>>> 8ab5b58a7edc088adc8009a50ef209031ec8bc75
     ],
     theme: {
         extend: {

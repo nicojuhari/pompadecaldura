@@ -47,9 +47,6 @@
                     <div class="mt-6">Evaluarea energetică<br> A+++</div>
                 </div>
             </div>
-            <div class="text-center mt-10 md:mt-20 text-xl leading-relaxed">
-                <div>Cu pompa de căldură <strong>Q-TERM</strong>,<br>recuperezi investiția din prima zi de utilizare</div>
-            </div>
         </div>
     </section>
 </template>

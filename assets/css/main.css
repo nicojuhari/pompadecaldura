@@ -1,6 +1,6 @@
 
 section {
-    @apply py-12 md:py-24 px-4 md:px-6;
+    @apply py-20 md:py-24 px-4 md:px-6;
 }
 
 .container {

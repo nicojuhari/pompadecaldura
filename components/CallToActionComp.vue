@@ -2,9 +2,9 @@
 <template>
     <section class="custom-bg" v-once>
         <div class="container flex items-center flex-col justify-center text-center text-white">
-            <div class="text-center mb-8 md:mb-12 font-extrabold text-3xl md:text-5xl leading-snug">
+            <div class="text-center mb-8 md:mb-12 font-bold text-3xl md:text-5xl leading-snug">
                 Consultație gratuită direct pe șantier</div>
-            <div class="tracking-wider font-bold text-lg border-2 rounded-full">
+            <div class="tracking-wider text-lg border-2 rounded-full">
                 <a href="tel:+37362053053" class="py-2 px-4 flex items-center hover:underline">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor" stroke-width="2">
@@ -19,6 +19,6 @@
 </template>
 <style scoped>
     section.custom-bg {
-        @apply bg-gradient-to-br from-color3 to-color2;
+        @apply bg-color2;
     }
 </style>

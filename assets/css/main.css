@@ -1,16 +1,16 @@
-
-section {
-    @apply py-20 md:py-24 px-4 md:px-6;
+.container {
+    @apply mx-auto max-w-6xl;
+    width: calc(100% - 2rem)
 }
 
-.container {
-    @apply max-w-6xl w-full mx-auto;
+section, .section-paddings {
+    @apply py-20 md:py-24;  
 }
 
 .section-title {
-    @apply text-center mb-8 md:mb-12 text-2xl md:text-4xl uppercase;
+    @apply text-center mb-8 md:mb-12 text-3xl md:text-4xl font-bold;
 }
 
 .home-page section:nth-child(even) {
-    background: rgba(255, 152, 0, .025);
+    background: rgba(0, 64, 255, 0.025);
 }

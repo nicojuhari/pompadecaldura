@@ -1,12 +1,7 @@
 <template>
   <div>
-    <Header/>
+    <IncludesHeader/>
     <NuxtPage />
-    <Footer />
+    <IncludesFooter />
   </div>
 </template>
-<style postcss>
-body {
-    @apply text-color2;
- }
-</style>

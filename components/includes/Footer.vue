@@ -2,7 +2,7 @@
 
 </script>
 <template>
-  <footer class="px-4 bg-color2 text-white">
+  <footer class="px-4 bg-brand-dark-blue text-white">
     <div class="container">
       <div class="grid md:grid-cols-3 gap-4 gap-y-10 py-8">
         <div>

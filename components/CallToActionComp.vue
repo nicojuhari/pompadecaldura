@@ -19,6 +19,6 @@
 </template>
 <style scoped>
     section.custom-bg {
-        @apply bg-color2;
+        @apply bg-brand-dark-blue;
     }
 </style>

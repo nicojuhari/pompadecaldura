@@ -5,7 +5,7 @@
     <div class="container">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 msd:h-[80vh] py-14 md:py-28 place-content-center ">
             <div>
-                <h1 class="font-bold text-4xl md:text-6xl text-center md:text-left text-color2">Pompa de căldură <br>Q-TERM</h1>
+                <h1 class="font-bold text-4xl md:text-6xl text-center md:text-left text-brand-dark-blue">Pompa de căldură <br>Q-TERM</h1>
                 <div class="text-xl md:text-2xl mt-8">
                     <p>Încălzire, apă caldă și răcirea locuinței <b>fără GAZ și de 3 ori mai ieftin.</b></p>
                     <p class="pt-2">Recuperarea investiției din prima zi de utilizare.</p>
@@ -19,7 +19,7 @@
                             <span class="uppercase text-3xl">5 ani</span>
                             <span>garanție</span></div>
                     </div> 
-                    <div class="text-color2 border-2 border-color2 p-2 px-4 md:max-w-max rounded-lg text-xl text-center flex items-center gap-4 flex-col md:flex-row w-full cursor-pointer">
+                    <div class="text-brand-dark-blue border-2 border-brand-dark-blue p-2 px-4 md:max-w-max rounded-lg text-xl text-center flex items-center gap-4 flex-col md:flex-row w-full cursor-pointer">
                         <div class="w-12">
                             <Icon name="ph:thumbs-up" class="h-12 w-12 flex-shrink-0"/>
                         </div>

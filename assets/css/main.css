@@ -14,3 +14,8 @@ section, .section-paddings {
 .home-page section:nth-child(even) {
     background: rgba(0, 64, 255, 0.025);
 }
+
+.gallery {
+    column-count: 3;
+    column-gap: 15px;
+}

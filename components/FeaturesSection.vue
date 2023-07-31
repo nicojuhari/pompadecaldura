@@ -29,7 +29,7 @@
             <div class="grid md:grid-cols-2 gap-8">
                 <div>
                     <!-- <div style="background-image: url('https://1foodmenu-demos.b-cdn.net/pompa-de-caldura-q-term.jpg');"></div> -->
-                    <img class="object-cover h-[360px] w-full md:h-[500px] md:w-[400px] rounded-lg mx-auto" src="https://1foodmenu-demos.b-cdn.net/q-term-benefits.jpg" alt="pompa de caldură Q-Term">
+                    <img class="object-cover h-[360px] w-full md:h-[500px] md:w-[400px] rounded-lg mx-auto" src="/images/q-term-benefits.png" alt="pompa de caldură Q-Term">
                 </div>
                 <div class="grid place-content-center gap-6">
                     <div class="flex gap-4 items-center justify-left" v-for="item in list">

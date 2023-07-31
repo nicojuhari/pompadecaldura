@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="relative grid place-content-center">
-                <img class="m-auto md:max-w-md rounded-lg" src="https://1foodmenu-demos.b-cdn.net/hero-pompa-de-caldura.png" alt="pompa de caldură Q-Term">
+                <img class="m-auto md:max-w-md rounded-lg" src="/images/hero-pompa-de-caldura.png" alt="pompa de caldură Q-Term">
                 <div class="hidden absolute top-1/2 left-1/2 h-20 w-20 bg-white rounded-full place-content-center -translate-x-1/2 -translate-y-1/2 cursor-pointer">
                     <Icon name="material-symbols:play-arrow-rounded" class="w-12 h-12 shrink-0 text-brand"/>
                 </div>

@@ -4,7 +4,7 @@
             <div class="section-title">Control de la distanță</div>
             <div class="grid md:grid-cols-2 items-center">
                 <div class="mb-8 md:mb-0 flex justify-end">
-                    <img src="/images/warmlink-mockup.png" alt="Warmlink" class="w-60 md:w-72 m-auto">
+                    <img src="/images/q-term-warmlink.png" alt="Q-TERM Warmlink" class="w-64 md:w-80 m-auto">
                 </div>
                 <div class="text-lg md:mt-0">
                     <div class="text-brand font-bold text-xl md:text-2xl mb-6 md:mb-10">Aplicația Warmlink vă permite,
